@@ -1,6 +1,5 @@
 import XCTest
 @testable import FeatureA
-import Common
 import ComposableArchitecture
 import RxSwift
 
