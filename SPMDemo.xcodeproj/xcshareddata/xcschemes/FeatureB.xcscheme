@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "318A6D4424AD25CE0018F5F5"
-               BuildableName = "SPMDemoApp.app"
-               BlueprintName = "SPMDemoApp"
+               BlueprintIdentifier = "31BA805724AD2A2500BEFAD3"
+               BuildableName = "FeatureB.framework"
+               BlueprintName = "FeatureB"
                ReferencedContainer = "container:SPMDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,36 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "318A6D5A24AD25CF0018F5F5"
-               BuildableName = "SPMDemoAppTests.xctest"
-               BlueprintName = "SPMDemoAppTests"
-               ReferencedContainer = "container:SPMDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31BA801624AD278300BEFAD3"
-               BuildableName = "CommonTests.xctest"
-               BlueprintName = "CommonTests"
-               ReferencedContainer = "container:SPMDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31BA803B24AD28ED00BEFAD3"
-               BuildableName = "FeatureATests.xctest"
-               BlueprintName = "FeatureATests"
-               ReferencedContainer = "container:SPMDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -81,16 +51,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "318A6D4424AD25CE0018F5F5"
-            BuildableName = "SPMDemoApp.app"
-            BlueprintName = "SPMDemoApp"
-            ReferencedContainer = "container:SPMDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -98,16 +58,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "318A6D4424AD25CE0018F5F5"
-            BuildableName = "SPMDemoApp.app"
-            BlueprintName = "SPMDemoApp"
+            BlueprintIdentifier = "31BA805724AD2A2500BEFAD3"
+            BuildableName = "FeatureB.framework"
+            BlueprintName = "FeatureB"
             ReferencedContainer = "container:SPMDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
