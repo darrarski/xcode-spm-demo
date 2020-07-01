@@ -1,6 +1,6 @@
 import Quick
 import Nimble
-@testable import Common
+@testable import SPMDemoApp
 
 final class SPMDemoAppSpec: QuickSpec {
     override func spec() {

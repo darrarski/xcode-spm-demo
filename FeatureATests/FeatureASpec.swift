@@ -1,6 +1,6 @@
 import Quick
 import Nimble
-@testable import Common
+@testable import FeatureA
 
 final class FeatureASpec: QuickSpec {
     override func spec() {
