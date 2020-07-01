@@ -2,7 +2,6 @@ import Quick
 import Nimble
 @testable import Common
 import RxSwift
-import RxBlocking
 
 class GreetingSpec: QuickSpec {
     override func spec() {
@@ -16,7 +15,8 @@ class GreetingSpec: QuickSpec {
             var elements: [String]!
 
             beforeEach {
-                elements = try? sut.toBlocking().toArray()
+                elements = []
+                _ = sut.subscribe(onNext: { elements.append($0) })
             }
 
             it("should emit correct elements") {

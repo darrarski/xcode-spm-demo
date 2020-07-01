@@ -54,8 +54,6 @@
 		31BA80AB24AD2F6D00BEFAD3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80AA24AD2F6D00BEFAD3 /* RxCocoa */; };
 		31BA80AD24AD2FB700BEFAD3 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80AC24AD2FB700BEFAD3 /* Greeting.swift */; };
 		31BA80AF24AD2FFA00BEFAD3 /* GreetingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80AE24AD2FFA00BEFAD3 /* GreetingSpec.swift */; };
-		31BA80B124AD302900BEFAD3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B024AD302900BEFAD3 /* RxBlocking */; };
-		31BA80B324AD302900BEFAD3 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B224AD302900BEFAD3 /* RxTest */; };
 		31BA80B624AD31F100BEFAD3 /* RxCombine in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B524AD31F100BEFAD3 /* RxCombine */; };
 /* End PBXBuildFile section */
 
@@ -221,8 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BA801824AD278400BEFAD3 /* Common.framework in Frameworks */,
-				31BA80B324AD302900BEFAD3 /* RxTest in Frameworks */,
-				31BA80B124AD302900BEFAD3 /* RxBlocking in Frameworks */,
 				31BA808724AD2BD400BEFAD3 /* Quick in Frameworks */,
 				31BA808324AD2BB300BEFAD3 /* Nimble in Frameworks */,
 			);
@@ -508,8 +504,6 @@
 			packageProductDependencies = (
 				31BA808224AD2BB300BEFAD3 /* Nimble */,
 				31BA808624AD2BD400BEFAD3 /* Quick */,
-				31BA80B024AD302900BEFAD3 /* RxBlocking */,
-				31BA80B224AD302900BEFAD3 /* RxTest */,
 			);
 			productName = CommonTests;
 			productReference = 31BA801724AD278300BEFAD3 /* CommonTests.xctest */;
@@ -1540,16 +1534,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
-		};
-		31BA80B024AD302900BEFAD3 /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
-		};
-		31BA80B224AD302900BEFAD3 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 		31BA80B524AD31F100BEFAD3 /* RxCombine */ = {
 			isa = XCSwiftPackageProductDependency;
