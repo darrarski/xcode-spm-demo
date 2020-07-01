@@ -49,6 +49,13 @@
 		31BA80A024AD2D0400BEFAD3 /* FeatureA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809F24AD2D0400BEFAD3 /* FeatureA.swift */; };
 		31BA80A224AD2D1300BEFAD3 /* FeatureB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80A124AD2D1300BEFAD3 /* FeatureB.swift */; };
 		31BA80A424AD2DA900BEFAD3 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80A324AD2DA900BEFAD3 /* DemoApp.swift */; };
+		31BA80A724AD2F6D00BEFAD3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80A624AD2F6D00BEFAD3 /* RxRelay */; };
+		31BA80A924AD2F6D00BEFAD3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80A824AD2F6D00BEFAD3 /* RxSwift */; };
+		31BA80AB24AD2F6D00BEFAD3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80AA24AD2F6D00BEFAD3 /* RxCocoa */; };
+		31BA80AD24AD2FB700BEFAD3 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80AC24AD2FB700BEFAD3 /* Greeting.swift */; };
+		31BA80AF24AD2FFA00BEFAD3 /* GreetingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80AE24AD2FFA00BEFAD3 /* GreetingSpec.swift */; };
+		31BA80B124AD302900BEFAD3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B024AD302900BEFAD3 /* RxBlocking */; };
+		31BA80B324AD302900BEFAD3 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B224AD302900BEFAD3 /* RxTest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +177,8 @@
 		31BA809F24AD2D0400BEFAD3 /* FeatureA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureA.swift; sourceTree = "<group>"; };
 		31BA80A124AD2D1300BEFAD3 /* FeatureB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureB.swift; sourceTree = "<group>"; };
 		31BA80A324AD2DA900BEFAD3 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		31BA80AC24AD2FB700BEFAD3 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		31BA80AE24AD2FFA00BEFAD3 /* GreetingSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +205,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BA80AB24AD2F6D00BEFAD3 /* RxCocoa in Frameworks */,
 				31BA809E24AD2CCA00BEFAD3 /* ComposableCoreLocation in Frameworks */,
 				31BA809C24AD2CCA00BEFAD3 /* ComposableCoreMotion in Frameworks */,
+				31BA80A924AD2F6D00BEFAD3 /* RxSwift in Frameworks */,
+				31BA80A724AD2F6D00BEFAD3 /* RxRelay in Frameworks */,
 				31BA809A24AD2CCA00BEFAD3 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BA801824AD278400BEFAD3 /* Common.framework in Frameworks */,
+				31BA80B324AD302900BEFAD3 /* RxTest in Frameworks */,
+				31BA80B124AD302900BEFAD3 /* RxBlocking in Frameworks */,
 				31BA808724AD2BD400BEFAD3 /* Quick in Frameworks */,
 				31BA808324AD2BB300BEFAD3 /* Nimble in Frameworks */,
 			);
@@ -311,6 +325,7 @@
 			children = (
 				31BA801124AD278300BEFAD3 /* Common.h */,
 				31BA802D24AD27E800BEFAD3 /* Empty.swift */,
+				31BA80AC24AD2FB700BEFAD3 /* Greeting.swift */,
 				31BA801224AD278300BEFAD3 /* Info.plist */,
 			);
 			path = Common;
@@ -321,6 +336,7 @@
 			children = (
 				31BA809024AD2C1200BEFAD3 /* CommonSpec.swift */,
 				31BA801E24AD278400BEFAD3 /* CommonTests.swift */,
+				31BA80AE24AD2FFA00BEFAD3 /* GreetingSpec.swift */,
 				31BA802024AD278400BEFAD3 /* Info.plist */,
 			);
 			path = CommonTests;
@@ -464,6 +480,9 @@
 				31BA809924AD2CCA00BEFAD3 /* ComposableArchitecture */,
 				31BA809B24AD2CCA00BEFAD3 /* ComposableCoreMotion */,
 				31BA809D24AD2CCA00BEFAD3 /* ComposableCoreLocation */,
+				31BA80A624AD2F6D00BEFAD3 /* RxRelay */,
+				31BA80A824AD2F6D00BEFAD3 /* RxSwift */,
+				31BA80AA24AD2F6D00BEFAD3 /* RxCocoa */,
 			);
 			productName = Common;
 			productReference = 31BA800F24AD278300BEFAD3 /* Common.framework */;
@@ -486,6 +505,8 @@
 			packageProductDependencies = (
 				31BA808224AD2BB300BEFAD3 /* Nimble */,
 				31BA808624AD2BD400BEFAD3 /* Quick */,
+				31BA80B024AD302900BEFAD3 /* RxBlocking */,
+				31BA80B224AD302900BEFAD3 /* RxTest */,
 			);
 			productName = CommonTests;
 			productReference = 31BA801724AD278300BEFAD3 /* CommonTests.xctest */;
@@ -626,6 +647,7 @@
 				31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */,
 				31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */,
 				31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 318A6D4624AD25CE0018F5F5 /* Products */;
 			projectDirPath = "";
@@ -729,6 +751,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BA80AD24AD2FB700BEFAD3 /* Greeting.swift in Sources */,
 				31BA802E24AD27E800BEFAD3 /* Empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,6 +760,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BA80AF24AD2FFA00BEFAD3 /* GreetingSpec.swift in Sources */,
 				31BA801F24AD278400BEFAD3 /* CommonTests.swift in Sources */,
 				31BA809124AD2C1200BEFAD3 /* CommonSpec.swift in Sources */,
 			);
@@ -1424,6 +1448,14 @@
 				minimumVersion = 0.6.0;
 			};
 		};
+		31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1481,6 +1513,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableCoreLocation;
+		};
+		31BA80A624AD2F6D00BEFAD3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		31BA80A824AD2F6D00BEFAD3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		31BA80AA24AD2F6D00BEFAD3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		31BA80B024AD302900BEFAD3 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		31BA80B224AD302900BEFAD3 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
