@@ -56,6 +56,7 @@
 		31BA80AF24AD2FFA00BEFAD3 /* GreetingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80AE24AD2FFA00BEFAD3 /* GreetingSpec.swift */; };
 		31BA80B124AD302900BEFAD3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B024AD302900BEFAD3 /* RxBlocking */; };
 		31BA80B324AD302900BEFAD3 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B224AD302900BEFAD3 /* RxTest */; };
+		31BA80B624AD31F100BEFAD3 /* RxCombine in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B524AD31F100BEFAD3 /* RxCombine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +211,7 @@
 				31BA809C24AD2CCA00BEFAD3 /* ComposableCoreMotion in Frameworks */,
 				31BA80A924AD2F6D00BEFAD3 /* RxSwift in Frameworks */,
 				31BA80A724AD2F6D00BEFAD3 /* RxRelay in Frameworks */,
+				31BA80B624AD31F100BEFAD3 /* RxCombine in Frameworks */,
 				31BA809A24AD2CCA00BEFAD3 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +485,7 @@
 				31BA80A624AD2F6D00BEFAD3 /* RxRelay */,
 				31BA80A824AD2F6D00BEFAD3 /* RxSwift */,
 				31BA80AA24AD2F6D00BEFAD3 /* RxCocoa */,
+				31BA80B524AD31F100BEFAD3 /* RxCombine */,
 			);
 			productName = Common;
 			productReference = 31BA800F24AD278300BEFAD3 /* Common.framework */;
@@ -648,6 +651,7 @@
 				31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */,
 				31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				31BA80B424AD31F100BEFAD3 /* XCRemoteSwiftPackageReference "RxCombine" */,
 			);
 			productRefGroup = 318A6D4624AD25CE0018F5F5 /* Products */;
 			projectDirPath = "";
@@ -1456,6 +1460,14 @@
 				minimumVersion = 5.1.1;
 			};
 		};
+		31BA80B424AD31F100BEFAD3 /* XCRemoteSwiftPackageReference "RxCombine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/RxCombine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1538,6 +1550,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA80A524AD2F6D00BEFAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxTest;
+		};
+		31BA80B524AD31F100BEFAD3 /* RxCombine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA80B424AD31F100BEFAD3 /* XCRemoteSwiftPackageReference "RxCombine" */;
+			productName = RxCombine;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
