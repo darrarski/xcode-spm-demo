@@ -24,13 +24,11 @@
 		31BA804624AD28ED00BEFAD3 /* FeatureA.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BA803624AD28ED00BEFAD3 /* FeatureA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31BA804924AD28ED00BEFAD3 /* FeatureA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA803424AD28ED00BEFAD3 /* FeatureA.framework */; };
 		31BA804A24AD28ED00BEFAD3 /* FeatureA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA803424AD28ED00BEFAD3 /* FeatureA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31BA805224AD297200BEFAD3 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA805124AD297200BEFAD3 /* Empty.swift */; };
 		31BA806124AD2A2500BEFAD3 /* FeatureB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA805824AD2A2500BEFAD3 /* FeatureB.framework */; };
 		31BA806824AD2A2600BEFAD3 /* FeatureBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA806724AD2A2600BEFAD3 /* FeatureBTests.swift */; };
 		31BA806A24AD2A2600BEFAD3 /* FeatureB.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BA805A24AD2A2500BEFAD3 /* FeatureB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31BA806D24AD2A2600BEFAD3 /* FeatureB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA805824AD2A2500BEFAD3 /* FeatureB.framework */; };
 		31BA806E24AD2A2600BEFAD3 /* FeatureB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA805824AD2A2500BEFAD3 /* FeatureB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31BA807624AD2A3700BEFAD3 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA807524AD2A3700BEFAD3 /* Empty.swift */; };
 		31BA807A24AD2B3000BEFAD3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA800F24AD278300BEFAD3 /* Common.framework */; };
 		31BA807D24AD2B3C00BEFAD3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA800F24AD278300BEFAD3 /* Common.framework */; };
 		31BA808024AD2B9B00BEFAD3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA807F24AD2B9B00BEFAD3 /* Quick */; };
@@ -45,6 +43,12 @@
 		31BA809324AD2C3700BEFAD3 /* FeatureASpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809224AD2C3700BEFAD3 /* FeatureASpec.swift */; };
 		31BA809524AD2C5000BEFAD3 /* FeatureBSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809424AD2C5000BEFAD3 /* FeatureBSpec.swift */; };
 		31BA809724AD2C7B00BEFAD3 /* SPMDemoAppSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809624AD2C7B00BEFAD3 /* SPMDemoAppSpec.swift */; };
+		31BA809A24AD2CCA00BEFAD3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA809924AD2CCA00BEFAD3 /* ComposableArchitecture */; };
+		31BA809C24AD2CCA00BEFAD3 /* ComposableCoreMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA809B24AD2CCA00BEFAD3 /* ComposableCoreMotion */; };
+		31BA809E24AD2CCA00BEFAD3 /* ComposableCoreLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA809D24AD2CCA00BEFAD3 /* ComposableCoreLocation */; };
+		31BA80A024AD2D0400BEFAD3 /* FeatureA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809F24AD2D0400BEFAD3 /* FeatureA.swift */; };
+		31BA80A224AD2D1300BEFAD3 /* FeatureB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80A124AD2D1300BEFAD3 /* FeatureB.swift */; };
+		31BA80A424AD2DA900BEFAD3 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA80A324AD2DA900BEFAD3 /* DemoApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,18 +157,19 @@
 		31BA803C24AD28ED00BEFAD3 /* FeatureATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BA804324AD28ED00BEFAD3 /* FeatureATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureATests.swift; sourceTree = "<group>"; };
 		31BA804524AD28ED00BEFAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31BA805124AD297200BEFAD3 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		31BA805824AD2A2500BEFAD3 /* FeatureB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BA805A24AD2A2500BEFAD3 /* FeatureB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureB.h; sourceTree = "<group>"; };
 		31BA805B24AD2A2500BEFAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BA806024AD2A2500BEFAD3 /* FeatureBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BA806724AD2A2600BEFAD3 /* FeatureBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBTests.swift; sourceTree = "<group>"; };
 		31BA806924AD2A2600BEFAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31BA807524AD2A3700BEFAD3 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		31BA809024AD2C1200BEFAD3 /* CommonSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSpec.swift; sourceTree = "<group>"; };
 		31BA809224AD2C3700BEFAD3 /* FeatureASpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureASpec.swift; sourceTree = "<group>"; };
 		31BA809424AD2C5000BEFAD3 /* FeatureBSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBSpec.swift; sourceTree = "<group>"; };
 		31BA809624AD2C7B00BEFAD3 /* SPMDemoAppSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMDemoAppSpec.swift; sourceTree = "<group>"; };
+		31BA809F24AD2D0400BEFAD3 /* FeatureA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureA.swift; sourceTree = "<group>"; };
+		31BA80A124AD2D1300BEFAD3 /* FeatureB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureB.swift; sourceTree = "<group>"; };
+		31BA80A324AD2DA900BEFAD3 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +196,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BA809E24AD2CCA00BEFAD3 /* ComposableCoreLocation in Frameworks */,
+				31BA809C24AD2CCA00BEFAD3 /* ComposableCoreMotion in Frameworks */,
+				31BA809A24AD2CCA00BEFAD3 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +288,7 @@
 				318A6D4824AD25CE0018F5F5 /* AppDelegate.swift */,
 				318A6D4E24AD25CF0018F5F5 /* Assets.xcassets */,
 				318A6D4C24AD25CE0018F5F5 /* ContentView.swift */,
+				31BA80A324AD2DA900BEFAD3 /* DemoApp.swift */,
 				318A6D5624AD25CF0018F5F5 /* Info.plist */,
 				318A6D5324AD25CF0018F5F5 /* LaunchScreen.storyboard */,
 				318A6D4A24AD25CE0018F5F5 /* SceneDelegate.swift */,
@@ -320,8 +329,8 @@
 		31BA803524AD28ED00BEFAD3 /* FeatureA */ = {
 			isa = PBXGroup;
 			children = (
-				31BA805124AD297200BEFAD3 /* Empty.swift */,
 				31BA803624AD28ED00BEFAD3 /* FeatureA.h */,
+				31BA809F24AD2D0400BEFAD3 /* FeatureA.swift */,
 				31BA803724AD28ED00BEFAD3 /* Info.plist */,
 			);
 			path = FeatureA;
@@ -340,8 +349,8 @@
 		31BA805924AD2A2500BEFAD3 /* FeatureB */ = {
 			isa = PBXGroup;
 			children = (
-				31BA807524AD2A3700BEFAD3 /* Empty.swift */,
 				31BA805A24AD2A2500BEFAD3 /* FeatureB.h */,
+				31BA80A124AD2D1300BEFAD3 /* FeatureB.swift */,
 				31BA805B24AD2A2500BEFAD3 /* Info.plist */,
 			);
 			path = FeatureB;
@@ -451,6 +460,11 @@
 			dependencies = (
 			);
 			name = Common;
+			packageProductDependencies = (
+				31BA809924AD2CCA00BEFAD3 /* ComposableArchitecture */,
+				31BA809B24AD2CCA00BEFAD3 /* ComposableCoreMotion */,
+				31BA809D24AD2CCA00BEFAD3 /* ComposableCoreLocation */,
+			);
 			productName = Common;
 			productReference = 31BA800F24AD278300BEFAD3 /* Common.framework */;
 			productType = "com.apple.product-type.framework";
@@ -611,6 +625,7 @@
 			packageReferences = (
 				31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */,
 				31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */,
+				31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = 318A6D4624AD25CE0018F5F5 /* Products */;
 			projectDirPath = "";
@@ -696,6 +711,7 @@
 			files = (
 				318A6D4924AD25CE0018F5F5 /* AppDelegate.swift in Sources */,
 				318A6D4B24AD25CE0018F5F5 /* SceneDelegate.swift in Sources */,
+				31BA80A424AD2DA900BEFAD3 /* DemoApp.swift in Sources */,
 				318A6D4D24AD25CE0018F5F5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,7 +746,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA805224AD297200BEFAD3 /* Empty.swift in Sources */,
+				31BA80A024AD2D0400BEFAD3 /* FeatureA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,7 +763,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA807624AD2A3700BEFAD3 /* Empty.swift in Sources */,
+				31BA80A224AD2D1300BEFAD3 /* FeatureB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1400,6 +1416,14 @@
 				minimumVersion = 8.1.1;
 			};
 		};
+		31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1442,6 +1466,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
+		};
+		31BA809924AD2CCA00BEFAD3 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		31BA809B24AD2CCA00BEFAD3 /* ComposableCoreMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableCoreMotion;
+		};
+		31BA809D24AD2CCA00BEFAD3 /* ComposableCoreLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableCoreLocation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
