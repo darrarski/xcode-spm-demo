@@ -23,7 +23,7 @@ Following diagram explains how the project is structured:
 
 ```
 +-----------+               +-------------------+
-|    App    +---------------+      Commons      |
+|    App    +<--------------+      Commons      |
 +---+---+---+               +---+---+---+---+---+
     ^   ^                       |   |   ^   ^
     |   |                       |   |   |   |
@@ -43,7 +43,7 @@ Diagram element|Description
 `[Feature]`|Feature framework target
 `[Commons]`|Shared framework target
 `[Library]`|Third-party dependency
-`[A]`←`[B]`|Module A requires module B
+`[A]<--[B]`|Module A requires module B
 
 ## 🧰 Third-party Dependencies
 
