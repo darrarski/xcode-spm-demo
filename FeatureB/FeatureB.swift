@@ -1,4 +1,5 @@
 import ComposableArchitecture
+import Firebase
 
 public struct FeatureBState {
     public init() {}

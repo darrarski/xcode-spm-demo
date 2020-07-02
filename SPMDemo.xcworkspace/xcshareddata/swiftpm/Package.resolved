@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "combine-schedulers",
+        "repositoryURL": "https://github.com/pointfreeco/combine-schedulers",
+        "state": {
+          "branch": null,
+          "revision": "afc84b6a3639198b7b8b6d79f04eb3c2ee590d29",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "2b1809051b4a65c1d7f5233331daa24572cd7fca",
+          "version": "8.1.1"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "0038bcbab4292f3b028632556507c124e5ba69f3",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "RxCombine",
+        "repositoryURL": "https://github.com/CombineCommunity/RxCombine.git",
+        "state": {
+          "branch": null,
+          "revision": "41e3482ce2e1a940bb90573779df35539fd633d2",
+          "version": "1.6.0"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "swift-case-paths",
+        "repositoryURL": "https://github.com/pointfreeco/swift-case-paths",
+        "state": {
+          "branch": null,
+          "revision": "fb733d87aabb5b053ad782902f2f3d67e0a65ac5",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "swift-composable-architecture",
+        "repositoryURL": "https://github.com/pointfreeco/swift-composable-architecture.git",
+        "state": {
+          "branch": null,
+          "revision": "b8c67d5d4f27ad3b2f772cf50f91c581fc94611c",
+          "version": "0.6.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

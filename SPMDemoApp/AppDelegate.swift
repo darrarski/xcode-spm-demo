@@ -1,4 +1,5 @@
 import UIKit
+import Firebase
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {

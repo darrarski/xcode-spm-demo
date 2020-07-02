@@ -2,6 +2,7 @@ import Combine
 import ComposableArchitecture
 import RxCombine
 import RxSwift
+import Firebase
 
 public struct FeatureAState: Equatable {
     public init(
