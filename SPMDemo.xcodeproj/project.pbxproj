@@ -1284,7 +1284,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P38XW29864;
 				INFOPLIST_FILE = SPMDemoAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1307,7 +1306,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P38XW29864;
 				INFOPLIST_FILE = SPMDemoAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1325,9 +1323,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F13B0E3C2275DF68F742CF99 /* Pods-Common.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1344,10 +1340,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1355,9 +1349,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E104935C72418FE04A928DA3 /* Pods-Common.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1376,7 +1368,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1424,7 +1415,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0ED03BA04FF697507C37220 /* Pods-FeatureA.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
@@ -1442,7 +1432,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.FeatureA;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1452,7 +1441,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F1A7BB12D0EA467BD64320E /* Pods-FeatureA.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
@@ -1519,7 +1507,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60EC8FD81F14447E9067B96C /* Pods-FeatureB.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
@@ -1537,7 +1524,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.FeatureB;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1547,7 +1533,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50B41E2E47EB9FFC8CA5D455 /* Pods-FeatureB.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P38XW29864;
