@@ -30,14 +30,6 @@
 		31BA806E24AD2A2600BEFAD3 /* FeatureB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA805824AD2A2500BEFAD3 /* FeatureB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31BA807A24AD2B3000BEFAD3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA800F24AD278300BEFAD3 /* Common.framework */; };
 		31BA807D24AD2B3C00BEFAD3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA800F24AD278300BEFAD3 /* Common.framework */; };
-		31BA808024AD2B9B00BEFAD3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA807F24AD2B9B00BEFAD3 /* Quick */; };
-		31BA808324AD2BB300BEFAD3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808224AD2BB300BEFAD3 /* Nimble */; };
-		31BA808524AD2BCF00BEFAD3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808424AD2BCF00BEFAD3 /* Nimble */; };
-		31BA808724AD2BD400BEFAD3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808624AD2BD400BEFAD3 /* Quick */; };
-		31BA808924AD2BE300BEFAD3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808824AD2BE300BEFAD3 /* Quick */; };
-		31BA808B24AD2BE600BEFAD3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808A24AD2BE600BEFAD3 /* Nimble */; };
-		31BA808D24AD2C0100BEFAD3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808C24AD2C0100BEFAD3 /* Quick */; };
-		31BA808F24AD2C0100BEFAD3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA808E24AD2C0100BEFAD3 /* Nimble */; };
 		31BA809124AD2C1200BEFAD3 /* CommonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809024AD2C1200BEFAD3 /* CommonSpec.swift */; };
 		31BA809324AD2C3700BEFAD3 /* FeatureASpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809224AD2C3700BEFAD3 /* FeatureASpec.swift */; };
 		31BA809524AD2C5000BEFAD3 /* FeatureBSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA809424AD2C5000BEFAD3 /* FeatureBSpec.swift */; };
@@ -59,6 +51,10 @@
 		31E56BB724B0E8530045FEC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56BB624B0E8530045FEC3 /* XCTest.framework */; };
 		31E56BB924B0E86A0045FEC3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31E56BB824B0E86A0045FEC3 /* Quick */; };
 		31E56BBB24B0E8710045FEC3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31E56BBA24B0E8710045FEC3 /* Nimble */; };
+		31E56BBC24B0E8F20045FEC3 /* TestsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56B9A24B0E4FC0045FEC3 /* TestsCommon.framework */; };
+		31E56BC124B0E90B0045FEC3 /* TestsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56B9A24B0E4FC0045FEC3 /* TestsCommon.framework */; };
+		31E56BC424B0E9300045FEC3 /* TestsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56B9A24B0E4FC0045FEC3 /* TestsCommon.framework */; };
+		31E56BC724B0E9500045FEC3 /* TestsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56B9A24B0E4FC0045FEC3 /* TestsCommon.framework */; };
 		4165949AEA9C63A9B2ADBA99 /* Pods_FeatureB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC36674706848F4B75C35A2 /* Pods_FeatureB.framework */; };
 		4CC1FFA864BA4E5C1575869B /* Pods_SPMDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1CBE6A31230C17C17395E1 /* Pods_SPMDemoAppTests.framework */; };
 		C21C609934CE1BBEB9F3204E /* Pods_SPMDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57800EDF824DD42C58FE9181 /* Pods_SPMDemoApp.framework */; };
@@ -130,6 +126,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 31BA800E24AD278300BEFAD3;
 			remoteInfo = Common;
+		};
+		31E56BBD24B0E8FA0045FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A6D3D24AD25CE0018F5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E56B9924B0E4FC0045FEC3;
+			remoteInfo = TestsCommon;
+		};
+		31E56BBF24B0E9050045FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A6D3D24AD25CE0018F5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E56B9924B0E4FC0045FEC3;
+			remoteInfo = TestsCommon;
+		};
+		31E56BC224B0E92B0045FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A6D3D24AD25CE0018F5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E56B9924B0E4FC0045FEC3;
+			remoteInfo = TestsCommon;
+		};
+		31E56BC524B0E93F0045FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A6D3D24AD25CE0018F5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E56B9924B0E4FC0045FEC3;
+			remoteInfo = TestsCommon;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -235,8 +259,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA808024AD2B9B00BEFAD3 /* Quick in Frameworks */,
-				31BA808524AD2BCF00BEFAD3 /* Nimble in Frameworks */,
+				31E56BBC24B0E8F20045FEC3 /* TestsCommon.framework in Frameworks */,
 				4CC1FFA864BA4E5C1575869B /* Pods_SPMDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +283,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA808724AD2BD400BEFAD3 /* Quick in Frameworks */,
-				31BA808324AD2BB300BEFAD3 /* Nimble in Frameworks */,
+				31E56BC124B0E90B0045FEC3 /* TestsCommon.framework in Frameworks */,
 				F93AE72A878BF4FA12D0F97E /* Pods_CommonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +301,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA808B24AD2BE600BEFAD3 /* Nimble in Frameworks */,
-				31BA808924AD2BE300BEFAD3 /* Quick in Frameworks */,
+				31E56BC424B0E9300045FEC3 /* TestsCommon.framework in Frameworks */,
 				DB24C6BA45B96BF9D0720D1A /* Pods_FeatureATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +319,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BA808F24AD2C0100BEFAD3 /* Nimble in Frameworks */,
-				31BA808D24AD2C0100BEFAD3 /* Quick in Frameworks */,
+				31E56BC724B0E9500045FEC3 /* TestsCommon.framework in Frameworks */,
 				0EB21E11D6533B2D09EECDD4 /* Pods_FeatureBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,12 +578,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				31E56BBE24B0E8FA0045FEC3 /* PBXTargetDependency */,
 				318A6D5D24AD25CF0018F5F5 /* PBXTargetDependency */,
 			);
 			name = SPMDemoAppTests;
 			packageProductDependencies = (
-				31BA807F24AD2B9B00BEFAD3 /* Quick */,
-				31BA808424AD2BCF00BEFAD3 /* Nimble */,
 			);
 			productName = SPMDemoAppTests;
 			productReference = 318A6D5B24AD25CF0018F5F5 /* SPMDemoAppTests.xctest */;
@@ -609,12 +628,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				31E56BC024B0E9050045FEC3 /* PBXTargetDependency */,
 				31BA801A24AD278400BEFAD3 /* PBXTargetDependency */,
 			);
 			name = CommonTests;
 			packageProductDependencies = (
-				31BA808224AD2BB300BEFAD3 /* Nimble */,
-				31BA808624AD2BD400BEFAD3 /* Quick */,
 			);
 			productName = CommonTests;
 			productReference = 31BA801724AD278300BEFAD3 /* CommonTests.xctest */;
@@ -652,12 +670,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				31E56BC324B0E92B0045FEC3 /* PBXTargetDependency */,
 				31BA803F24AD28ED00BEFAD3 /* PBXTargetDependency */,
 			);
 			name = FeatureATests;
 			packageProductDependencies = (
-				31BA808824AD2BE300BEFAD3 /* Quick */,
-				31BA808A24AD2BE600BEFAD3 /* Nimble */,
 			);
 			productName = FeatureATests;
 			productReference = 31BA803C24AD28ED00BEFAD3 /* FeatureATests.xctest */;
@@ -695,12 +712,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				31E56BC624B0E93F0045FEC3 /* PBXTargetDependency */,
 				31BA806324AD2A2500BEFAD3 /* PBXTargetDependency */,
 			);
 			name = FeatureBTests;
 			packageProductDependencies = (
-				31BA808C24AD2C0100BEFAD3 /* Quick */,
-				31BA808E24AD2C0100BEFAD3 /* Nimble */,
 			);
 			productName = FeatureBTests;
 			productReference = 31BA806024AD2A2500BEFAD3 /* FeatureBTests.xctest */;
@@ -1181,6 +1197,26 @@
 			isa = PBXTargetDependency;
 			target = 31BA800E24AD278300BEFAD3 /* Common */;
 			targetProxy = 31BA807B24AD2B3600BEFAD3 /* PBXContainerItemProxy */;
+		};
+		31E56BBE24B0E8FA0045FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E56B9924B0E4FC0045FEC3 /* TestsCommon */;
+			targetProxy = 31E56BBD24B0E8FA0045FEC3 /* PBXContainerItemProxy */;
+		};
+		31E56BC024B0E9050045FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E56B9924B0E4FC0045FEC3 /* TestsCommon */;
+			targetProxy = 31E56BBF24B0E9050045FEC3 /* PBXContainerItemProxy */;
+		};
+		31E56BC324B0E92B0045FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E56B9924B0E4FC0045FEC3 /* TestsCommon */;
+			targetProxy = 31E56BC224B0E92B0045FEC3 /* PBXContainerItemProxy */;
+		};
+		31E56BC624B0E93F0045FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E56B9924B0E4FC0045FEC3 /* TestsCommon */;
+			targetProxy = 31E56BC524B0E93F0045FEC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1865,46 +1901,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		31BA807F24AD2B9B00BEFAD3 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		31BA808224AD2BB300BEFAD3 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		31BA808424AD2BCF00BEFAD3 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		31BA808624AD2BD400BEFAD3 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		31BA808824AD2BE300BEFAD3 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		31BA808A24AD2BE600BEFAD3 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		31BA808C24AD2C0100BEFAD3 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		31BA808E24AD2C0100BEFAD3 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
 		31BA809924AD2CCA00BEFAD3 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA809824AD2CCA00BEFAD3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
