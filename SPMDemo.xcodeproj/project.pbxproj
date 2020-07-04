@@ -56,6 +56,9 @@
 		31BA80B624AD31F100BEFAD3 /* RxCombine in Frameworks */ = {isa = PBXBuildFile; productRef = 31BA80B524AD31F100BEFAD3 /* RxCombine */; };
 		31E56B9E24B0E4FC0045FEC3 /* TestsCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E56B9C24B0E4FC0045FEC3 /* TestsCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31E56BA324B0E6000045FEC3 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E56BA224B0E6000045FEC3 /* Empty.swift */; };
+		31E56BB724B0E8530045FEC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E56BB624B0E8530045FEC3 /* XCTest.framework */; };
+		31E56BB924B0E86A0045FEC3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 31E56BB824B0E86A0045FEC3 /* Quick */; };
+		31E56BBB24B0E8710045FEC3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 31E56BBA24B0E8710045FEC3 /* Nimble */; };
 		4165949AEA9C63A9B2ADBA99 /* Pods_FeatureB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC36674706848F4B75C35A2 /* Pods_FeatureB.framework */; };
 		4CC1FFA864BA4E5C1575869B /* Pods_SPMDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1CBE6A31230C17C17395E1 /* Pods_SPMDemoAppTests.framework */; };
 		C21C609934CE1BBEB9F3204E /* Pods_SPMDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57800EDF824DD42C58FE9181 /* Pods_SPMDemoApp.framework */; };
@@ -194,6 +197,7 @@
 		31E56B9C24B0E4FC0045FEC3 /* TestsCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsCommon.h; sourceTree = "<group>"; };
 		31E56B9D24B0E4FC0045FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31E56BA224B0E6000045FEC3 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		31E56BB624B0E8530045FEC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3344AEB36B3CF189E6C42514 /* Pods-SPMDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-SPMDemoApp/Pods-SPMDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4EA2CADC2433151885F8D8A9 /* Pods-FeatureBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeatureBTests.debug.xcconfig"; path = "Target Support Files/Pods-FeatureBTests/Pods-FeatureBTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50B41E2E47EB9FFC8CA5D455 /* Pods-FeatureB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeatureB.release.xcconfig"; path = "Target Support Files/Pods-FeatureB/Pods-FeatureB.release.xcconfig"; sourceTree = "<group>"; };
@@ -304,6 +308,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E56BBB24B0E8710045FEC3 /* Nimble in Frameworks */,
+				31E56BB924B0E86A0045FEC3 /* Quick in Frameworks */,
+				31E56BB724B0E8530045FEC3 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +440,7 @@
 		31BA807924AD2B3000BEFAD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31E56BB624B0E8530045FEC3 /* XCTest.framework */,
 				0AACB9FAEDC46140CF4D1FBD /* Pods_Common.framework */,
 				E569B1B29255639389A45801 /* Pods_CommonTests.framework */,
 				EAC36674706848F4B75C35A2 /* Pods_FeatureB.framework */,
@@ -712,6 +720,10 @@
 			dependencies = (
 			);
 			name = TestsCommon;
+			packageProductDependencies = (
+				31E56BB824B0E86A0045FEC3 /* Quick */,
+				31E56BBA24B0E8710045FEC3 /* Nimble */,
+			);
 			productName = TestsCommon;
 			productReference = 31E56B9A24B0E4FC0045FEC3 /* TestsCommon.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1927,6 +1939,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 31BA80B424AD31F100BEFAD3 /* XCRemoteSwiftPackageReference "RxCombine" */;
 			productName = RxCombine;
+		};
+		31E56BB824B0E86A0045FEC3 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA807E24AD2B9B00BEFAD3 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		31E56BBA24B0E8710045FEC3 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31BA808124AD2BB300BEFAD3 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
